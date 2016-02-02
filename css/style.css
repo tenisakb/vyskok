@@ -1,0 +1,33 @@
+/*Left side of website*/
+.main-section{
+    height:400px;
+    padding-top:50px;
+    background-color:#ecf0f1;
+}
+
+.start-section .btn-primary{
+    display:block;
+    margin-top:125px;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+
+.start-section,
+.counter-section{
+    display:none;
+}
+
+.counter-text{
+    font-size:50px;
+    display:block;
+    text-align:center;
+    line-height:300px;
+}
+
+.back-button{
+    text-align:center;
+}
+
+.search-form{
+    margin-top:30px;
+}
