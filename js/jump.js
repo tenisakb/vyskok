@@ -53,7 +53,8 @@ $(document).ready(function () {
                 },
                 type: 'post',
                 success: function(){
-                    alert('Výsledky uloženy');
+                    var link = 'php/video.php?name=' + firstName + '&score=' + value + '&sex=' + sex;
+                    window.open(link, 'Seznámek');
                 }
             });
             saved = true;
